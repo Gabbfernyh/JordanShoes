@@ -66,4 +66,4 @@ Para uma melhor experiência, especialmente por conta do uso do `fetch` para car
 
 | Desktop | Tablet | Celular |
 | :---: | :---: | :---: |
-| ![alt text](/src/assets/imgs/desktop.png) | ![alt text](/src/assets/imgs/tablet.png.png) | ![alt text](/src/assets/imgs/mobile.pngimage-5.png) |
+| ![alt text](/src/assets/imgs/desktop.png) | ![alt text](/src/assets/imgs/tablet.png) | ![alt text](/src/assets/imgs/mobile.png) |
