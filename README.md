@@ -28,7 +28,8 @@ Uma landing page moderna e responsiva para a venda de tênis da marca Jordan. O 
 
 O projeto está organizado da seguinte forma:
 
-```
+´´´
+
 /
 ├── src/
 │   ├── assets/
@@ -45,7 +46,6 @@ O projeto está organizado da seguinte forma:
 │       ├── index.html      # Página principal
 │       └── buyshoes.html   # Conteúdo do formulário de pagamento
 └── README.md
-```
 
 ---
 
@@ -66,4 +66,4 @@ Para uma melhor experiência, especialmente por conta do uso do `fetch` para car
 
 | Desktop | Tablet | Celular |
 | :---: | :---: | :---: |
-| ![alt text](image-4.png) | ![alt text](image-5.png) | ![alt text](image-6.png) |
+| ![alt text](/src/assets/imgs/desktop.png) | ![alt text](/src/assets/imgs/tablet.png.png) | ![alt text](/src/assets/imgs/mobile.pngimage-5.png) |
