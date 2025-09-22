@@ -1,0 +1,18 @@
+.custom-alert {
+    position: fixed;
+    top: 20px;
+    right: -100%; /* Começa fora da tela */
+    background-color: #28a745; /* Verde sucesso */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 2000;
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    transition: right 0.5s ease-in-out;
+}
+
+.custom-alert.show {
+    right: 20px; /* Entra na tela */
+}

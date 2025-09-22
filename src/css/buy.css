@@ -1,0 +1,67 @@
+.payment-form-container {
+    padding: 10px;
+}
+
+.payment-form-container h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+#payment-form .form-group {
+    margin-bottom: 15px;
+}
+
+#payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+#payment-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#payment-form .form-row {
+    display: flex;
+    gap: 15px;
+}
+
+#payment-form .form-row .form-group {
+    flex: 1;
+}
+
+#finalize-payment-button {
+    margin-top: 10px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .payment-form-container h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #payment-form .form-row {
+        flex-direction: column;
+        gap: 0; /* Remove o gap para empilhar diretamente */
+    }
+
+    /* Adiciona um espaçamento inferior ao primeiro item da linha quando empilhado */
+    #payment-form .form-row .form-group:first-child {
+        margin-bottom: 15px;
+    }
+}
+
+/* Estilo para o botão de tamanho selecionado */
+.size-selector button.selected {
+    border: 2px solid #007bff; /* Borda azul */
+    color: #007bff;
+}
