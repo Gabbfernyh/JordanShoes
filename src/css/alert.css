@@ -71,3 +71,37 @@
 .close-alert-btn:hover {
     color: #333;
 }
+
+/* Estilo para texto de aviso/lembrete */
+.warning-text {
+    color: #ff0000; /* Vermelho */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .first-access-alert-content {
+        font-size: 1.5em;
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    .close-alert-btn {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .first-access-alert-content {
+        font-size: 1.2em;
+        padding: 20px;
+        max-width: 95%;
+    }
+
+    .close-alert-btn {
+        font-size: 1em;
+        top: 10px;
+        right: 10px;
+    }
+}
