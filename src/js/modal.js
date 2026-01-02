@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modalPlaceholder.classList.add('content-fading-out');
 
         setTimeout(() => {
-            fetch('/pages/buyshoes.html')
+            fetch('/src/pages/buyshoes.html')
                 .then(response => {
                     if (!response.ok) throw new Error('Network response was not ok');
                     return response.text();
