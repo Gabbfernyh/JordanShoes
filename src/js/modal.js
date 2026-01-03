@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
             // Simula um processamento rápido
             setTimeout(() => {
-                showCustomAlert('Compra concluída com sucesso!');
+                showCustomAlert('✅ Compra concluída com sucesso!');
                 closeModal();
             }, 800);
         }
